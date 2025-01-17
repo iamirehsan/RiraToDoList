@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{3803C2EF-6C89-407B-889D-F3FD89A7B831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D282BAB1-4A0A-412D-9458-C25DD2AD64B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message", "Message", "{6FFA085B-CAAA-4E14-8AC9-E3C8E9A43F3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3E1A8378-62F7-44D1-875C-F651361922ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D36D8E42-8D58-4633-848F-CA53A2ED93DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.API", "RiraToDoList.API\RiraToDoList.API.csproj", "{CEFA8AAD-33DB-44C5-9610-33498D8D73AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.Infrastructure", "RiraToDoList.Infrastructure\RiraToDoList.Infrastructure.csproj", "{20BBA501-6B0F-4A84-A303-CA8AB017041A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.Domain", "RiraToDoList.Domain\RiraToDoList.Domain.csproj", "{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.Message", "RiraToDoList.Message\RiraToDoList.Message.csproj", "{8944A7DF-99B3-4878-AE1B-6C7313F10377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.Service", "RiraToDoList.Service\RiraToDoList.Service.csproj", "{EFCEDA3C-E7F7-4293-BAC5-DD619371F366}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiraToDoList.Service.Implimentation", "RiraToDoList.Service.Implimentation\RiraToDoList.Service.Implimentation.csproj", "{2E72F239-7597-49BD-8567-9F1B2CA7EE3A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{62E38E26-1BAB-441C-A55A-CD5DED1471B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFA8AAD-33DB-44C5-9610-33498D8D73AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFA8AAD-33DB-44C5-9610-33498D8D73AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFA8AAD-33DB-44C5-9610-33498D8D73AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFA8AAD-33DB-44C5-9610-33498D8D73AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BBA501-6B0F-4A84-A303-CA8AB017041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BBA501-6B0F-4A84-A303-CA8AB017041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BBA501-6B0F-4A84-A303-CA8AB017041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BBA501-6B0F-4A84-A303-CA8AB017041A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8944A7DF-99B3-4878-AE1B-6C7313F10377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8944A7DF-99B3-4878-AE1B-6C7313F10377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8944A7DF-99B3-4878-AE1B-6C7313F10377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8944A7DF-99B3-4878-AE1B-6C7313F10377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCEDA3C-E7F7-4293-BAC5-DD619371F366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCEDA3C-E7F7-4293-BAC5-DD619371F366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCEDA3C-E7F7-4293-BAC5-DD619371F366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCEDA3C-E7F7-4293-BAC5-DD619371F366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E72F239-7597-49BD-8567-9F1B2CA7EE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E72F239-7597-49BD-8567-9F1B2CA7EE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E72F239-7597-49BD-8567-9F1B2CA7EE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E72F239-7597-49BD-8567-9F1B2CA7EE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E38E26-1BAB-441C-A55A-CD5DED1471B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E38E26-1BAB-441C-A55A-CD5DED1471B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E38E26-1BAB-441C-A55A-CD5DED1471B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E38E26-1BAB-441C-A55A-CD5DED1471B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEFA8AAD-33DB-44C5-9610-33498D8D73AF} = {D36D8E42-8D58-4633-848F-CA53A2ED93DB}
+		{20BBA501-6B0F-4A84-A303-CA8AB017041A} = {3E1A8378-62F7-44D1-875C-F651361922ED}
+		{8E51AB0D-99E8-43DB-A8CA-25150FE5D8C3} = {D282BAB1-4A0A-412D-9458-C25DD2AD64B9}
+		{8944A7DF-99B3-4878-AE1B-6C7313F10377} = {6FFA085B-CAAA-4E14-8AC9-E3C8E9A43F3A}
+		{EFCEDA3C-E7F7-4293-BAC5-DD619371F366} = {3803C2EF-6C89-407B-889D-F3FD89A7B831}
+		{2E72F239-7597-49BD-8567-9F1B2CA7EE3A} = {3803C2EF-6C89-407B-889D-F3FD89A7B831}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A72A138-2322-464C-98F5-A5E720268F7F}
+	EndGlobalSection
+EndGlobal
